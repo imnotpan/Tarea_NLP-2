@@ -1,0 +1,20 @@
+Tarea: 
+Diseñar e implementar un sistema RAG que pueda responder, por ejemplo, a las preguntas siguientes:
+-	¿Cuales son las personas que más se mencionan entre dos fechas sobre la temática del hidrogeno verde?
+-	¿Quién es “Juan Carlos Jobet”? 
+-	¿Cuál su opinión o su posición sobre el hidrógeno verde?
+-	¿Qué déclaraciones ha realizado en el contexto del hidrógeno verde?
+-	Dame el enlace de una foto de Juan Carlos Jobet     X
+-	¿Quienes son las personas más mencionadas en las noticias entre dos fechas?
+
+
+
+Para resolver la tarea, se podrá utilizar ChromaDB como base de datos vectorial y Langchain para desarrollar un sistema basado en agente. Según la pregunta del usuario, el agente será capaz por ejemplo de realizar las acciones siguientes:
+-	buscar noticias que hablan de cierta temática, entre dos fechas     
+-	contar las personas mencionadas en una lista de noticias                                 X    
+-	filtrar las noticias que mencionan cierta persona, a partir de una lista de noticias        x
+-	extraer datos personales de una persona, a partir de una lista de documentos que hablan de esa persona 
+-	extraer datos personales de una persona, buscando en wikipedia X
+-	extraer datos personales de una persona, buscando en un motor de búsqueda X
+
+ 
